@@ -1,0 +1,17 @@
+[package]
+name = "bindgen-future-payload-woe-test"
+authors = ["itowlson <ivan.towlson@fermyon.com>"]
+description = ""
+version = "0.1.0"
+rust-version = "1.78"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1"
+wit-bindgen = "0.51.0"
+# wit-bindgen = "0.53.0"
+
+[workspace]
